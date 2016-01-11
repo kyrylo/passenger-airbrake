@@ -3,6 +3,7 @@ gem 'airbrake'
 require 'airbrake'
 require 'airbrake/passenger'
 require 'airbrake/passenger/integration1'
+require 'tesrseses'
 
 Airbrake.configure do |c|
   c.project_id = 113743

@@ -9,7 +9,7 @@ Airbrake.configure do |c|
   c.logger.level = Logger::DEBUG
 end
 
-raise 'hell'
+raise 'help'
 
 require ::File.expand_path('../config/environment', __FILE__)
 run Rails.application

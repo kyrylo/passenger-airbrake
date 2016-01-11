@@ -1,7 +1,6 @@
 # This file is used by Rack-based servers to start the application.
 gem 'airbrake'
 require 'airbrake'
-require 'airbrake/passenger'
 
 Airbrake.configure do |c|
   c.project_id = 113743

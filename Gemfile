@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'passenger'
+# gem 'passenger'
 gem 'airbrake', '~> 5.0.0', :github => 'Partyista/airbrake'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
